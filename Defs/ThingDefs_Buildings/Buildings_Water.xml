@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Buildings>
+  <!-- Water Pipe -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>WaterPipe</defName>
+    <label>water pipe</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+  </ThingDef>
+</Buildings>
