@@ -8,13 +8,51 @@
     <thingClass>Building</thingClass>
     <category>Building</category>
     <comps>
-      <li Class="CompProperties_Water">
-        <compClass>CompWaterTransmitter</compClass>
+      <li Class="WaterworksMod.CompProperties_Water">
+        <compClass>WaterworksMod.CompWaterTransmitter</compClass>
         <transmitsWater>true</transmitsWater>
       </li>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_Conduit</li>
     </placeWorkers>
+    <graphicData>
+      <texPath>WaterPipe_Atlas.tex</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Transmitter</linkType>
+      <linkFlags>
+        <li>PowerConduit</li>
+      </linkFlags>
+    </graphicData>
+    <designationCategory>Power</designationCategory>
+    <costList>
+      <Steel>3</Steel>
+    </costList>
+    <blueprintGraphicData>
+      <texPath>WaterPipe_Blueprint_Atlas.tex</texPath>
+    </blueprintGraphicData>
+    <uiIconPath>WaterPipe_MenuIcon.tex</uiIconPath>
+    <building>
+      <isInert>true</isInert>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+      <isEdifice>false</isEdifice>
+    </building>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>35</WorkToMake>
+      <Flammability>0.0</Flammability>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <description>A set of pipes for transporting water around.</description>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <constructEffect>ConstructMetal</constructEffect>
   </ThingDef>
 </Buildings>

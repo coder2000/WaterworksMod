@@ -3,6 +3,7 @@
 <ModMetaData>
   <name>Waterworks</name>
   <author>coder2000</author>
+  <targetVersion>0.15.1284</targetVersion>
   <description>
     Adds a full waterworks system including pumps, toilets and showers.
   </description>
