@@ -2,7 +2,7 @@
 
 namespace WaterworksMod
 {
-    public abstract class CompPower : ThingComp
+    public abstract class CompWater : ThingComp
     {
     }
 }
