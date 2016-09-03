@@ -8,8 +8,8 @@
     <thingClass>Building</thingClass>
     <category>Building</category>
     <comps>
-      <li Class="CompProperties_Water">
-        <compClass>CompWaterTransmitter</compClass>
+      <li Class="WaterworksMod.CompProperties_Water">
+        <compClass>WaterworksMod.CompWaterTransmitter</compClass>
         <transmitsWater>true</transmitsWater>
       </li>
     </comps>
