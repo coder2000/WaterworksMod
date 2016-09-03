@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompPower.cs" />
+    <Compile Include="CompProperties_Water.cs" />
+    <Compile Include="CompWater.cs" />
+    <Compile Include="CompWaterPump.cs" />
+    <Compile Include="CompWaterTransmitter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

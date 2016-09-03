@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+  <ResearchProjectDef>
+    <defName>Water</defName>
+    <label>water</label>
+    <description>Build indoor plumbing</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+  </ResearchProjectDef>
+</Defs>

@@ -7,5 +7,14 @@
     <label>water pipe</label>
     <thingClass>Building</thingClass>
     <category>Building</category>
+    <comps>
+      <li Class="CompProperties_Water">
+        <compClass>CompWaterTransmitter</compClass>
+        <transmitsWater>true</transmitsWater>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_Conduit</li>
+    </placeWorkers>
   </ThingDef>
 </Buildings>
